@@ -7,7 +7,7 @@ Let's break down the information provided under the topic **" 1.1.1. Ordinary Le
 
 `**Keywords:**`
  <br>
- 
+
 **Fitting a linear regression model**
  <br>
 
@@ -24,7 +24,7 @@ Mathematically, if we have a dataset with $\( n \)$ observations, denoted by $\(
 
 The residual sum of squares (RSS) is calculated as:
 
-$\[$ RSS = $\sum_{i=1}^{n}& &(y_i - \hat{y}_i)^2 \]$
+$\[ RSS = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]$
 
 <br> <br>
 
@@ -41,11 +41,10 @@ $\[$ RSS = $\sum_{i=1}^{n}& &(y_i - \hat{y}_i)^2 \]$
    print("Intercept:", reg.intercept_)     # Output: 0.0
    ```
    This example demonstrates fitting a LinearRegression model with three data points `[[0, 0], [1, 1], [2, 2]]` and corresponding target values `[0, 1, 2]`. After fitting, it prints out the coefficients of the linear model, which are `[0.5, 0.5]`.
-   I see the discrepancy. Let's correct it:
 
-Given the equation \( y = 0.5x_1 + 0.5x_2 + c \), we don't explicitly see \( c \) in the output `[0.5, 0.5]`, but it's implicitly assumed to be zero, meaning the line passes through the origin.
+Given the equation $\( y = 0.5x_1 + 0.5x_2 + c \)$, we don't explicitly see $\( c \)$ is eqal to zero.
 
-So, the equation simplifies to \( y = 0.5x_1 + 0.5x_2 \).
+So, the equation simplifies to $\( y = 0.5x_1 + 0.5x_2 \)$.
 
 Now let's verify the given data:
 
