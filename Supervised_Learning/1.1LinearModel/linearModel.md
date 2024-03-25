@@ -5,22 +5,26 @@ Let's break down the information provided under the topic **" 1.1.1. Ordinary Le
 
 1. **LinearRegression**: This is a class in scikit-learn used for fitting linear regression models. It fits a linear model with coefficients to minimize the residual sum of squares between the observed targets in the dataset and the targets predicted by the linear approximation.
 
-**Keywords:** <br>
-**Fitting a linear regression model** <br>
+`**Keywords:**`
+ <br>
+ 
+**Fitting a linear regression model**
+ <br>
 
-```text
+```sql
 Fitting a linear regression model essentially means finding the best-fitting line (or hyperplane in higher dimensions) that describes the relationship between the independent variables (features) and the dependent variable (target) in the given dataset. The process involves determining the coefficients (weights) for each independent variable in order to minimize the difference between the actual target values and the values predicted by the linear equation.
 ```
 <br>
 
 **Residual sum:**
+
 In machine learning, the residual sum refers to the sum of the squared differences between the actual target values (or observations) in a dataset and the corresponding predicted values obtained from a model. These differences, often referred to as residuals, represent the errors made by the model in predicting the target values.
 
 Mathematically, if we have a dataset with $\( n \)$ observations, denoted by $\( (x_i, y_i) \)$ where $\( x_i \)$ represents the features and $\( y_i \)$ represents the actual target values, and our model predicts corresponding values $\( \hat{y}_i \)$, then the residual for each observation is $\( y_i - \hat{y}_i \)$.
 
 The residual sum of squares (RSS) is calculated as:
 
-$\[ RSS = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]$
+$\[$ RSS = $\sum_{i=1}^{n}& &(y_i - \hat{y}_i)^2 \]$
 
 <br> <br>
 
