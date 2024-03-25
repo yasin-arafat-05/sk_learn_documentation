@@ -11,9 +11,8 @@ Let's break down the information provided under the topic **" 1.1.1. Ordinary Le
 **Fitting a linear regression model**
  <br>
 
-```sql
 Fitting a linear regression model essentially means finding the best-fitting line (or hyperplane in higher dimensions) that describes the relationship between the independent variables (features) and the dependent variable (target) in the given dataset. The process involves determining the coefficients (weights) for each independent variable in order to minimize the difference between the actual target values and the values predicted by the linear equation.
-```
+
 <br>
 
 **Residual sum:**
